@@ -1,0 +1,150 @@
+/*
+.header {
+    background: #000;
+}
+
+.header__inner {
+    margin: 0 auto;
+    padding: 20px 15px;
+    max-width: 1230px;
+}
+
+.header__logo {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+}
+*/
+
+.admin-page__heading {
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.search-form__item {
+    height: 40px;
+    display: flex;
+    justify-content: center;    /* 横方向の中央揃え */
+    /* margin-bottom: 150px; */
+}
+.search-form-kw__item-input {
+    width: 300px;
+    text-align: center;
+    margin-right: 20px;
+    background-color: #fcfcfc;
+}
+.search-form-gd__item-input {
+    width: 100px;
+    text-align: center;
+    margin-right: 20px;
+    background-color: #f5f5f5;
+}
+.search-form-ca__item-input {
+    width: 200px;
+    text-align: center;
+    margin-right: 20px;
+    background-color: #f5f5f5;
+}
+.search-form-dt__item-input {
+    width: 160px;
+    text-align: center;
+    margin-right: 20px;
+    background-color: #f5f5f5;
+}
+.search-form-srh__button-submit {
+    width: 80px;
+    text-align: center;
+    margin-right: 20px;
+    background-color: #80776a;
+    color: #ffffff;
+}
+.search-form-rst__button-submit {
+    width: 80px;
+    text-align: center;
+    background-color: #d9c5b5;
+    color: #ffffff;
+}
+
+/* ページネーション用ページ遷移のスタイル */
+.search-form__pagenation {
+    position: absolute;
+    left: 75%;
+    transform: translateX(-50%);
+}
+svg.w-5.h-5 {
+    /*paginateメソッドの矢印の大きさ調整のために追加*/
+    width: 30px;
+    height: 30px;
+}
+
+
+
+.contact-table {
+    margin-top: 120px;
+}
+.contact-table__inner {
+    width: 60%;                 /* ←幅を指定（%でも可） */
+    margin: 0 auto;             /* 左右オートで中央寄せ */
+    border-collapse: collapse;
+}
+.contact-table__inner {
+    border-collapse: collapse;      /* 枠線が重ならないようにする */
+    border: 1px solid black;      /* 表全体の枠線 */
+}
+
+.contact-table-header th {
+    height: 50px;                     /* 行の高さ */
+    background-color: #8b7968;      /* 背景色 */
+    color: white;                   /* 文字色 */
+    padding: 10px;                    /* 内側の余白を増やすと高さも広がる */
+}
+
+.contact-table-data td {
+    height: 50px;
+    padding: 10px;
+}
+
+.contact-table__inner tr {
+    border: 1px solid black;        /* 各セルの枠線 */
+    padding: 8px;                       /* 文字と枠の余白 */
+    text-align: left;                   /* 文字を左寄せ */
+}
+
+
+
+
+
+/* モーダルのスタイル */
+.modal {
+    display: none;
+    /* 初期は非表示 */
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* 半透明背景 */
+}
+.modal-content {
+    background-color: #fff;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 30%;
+    border-radius: 8px;
+}
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.close:hover {
+    color: black;
+}
